@@ -31,3 +31,7 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AKIAXLBFC34ZLOMBF2OA }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.cP5nNwhXQ6E5kHGMXt9ziNzVO8vD0Smfn02Jsk7L }}
           AWS_REGION: "us-east-1" # optional: defaults to us-east-1
+
+
+- name: "Configure AWS Credentials" Action For GitHub Actions
+  uses: aws-actions/configure-aws-credentials@v1
