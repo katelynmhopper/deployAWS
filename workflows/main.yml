@@ -1,7 +1,3 @@
-- name: "Configure AWS Credentials" Action For GitHub Actions
-  uses: aws-actions/configure-aws-credentials@v1
-
- 
 name: Upload Website
 on:
   push:
